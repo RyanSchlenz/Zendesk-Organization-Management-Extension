@@ -17,6 +17,7 @@
         "helpText": "Provide the API token for authenticating requests."
       }
     },
-    "installation_instructions": "Follow the instructions in the README file to set up and use the app."
+    "installation_instructions": "Follow the instructions in the README file to set up and use the app.",
+    "long_description": "This app allows you to manage Zendesk organization data based on email domains, making it easier to organize and maintain your Zendesk account."
   }
   
