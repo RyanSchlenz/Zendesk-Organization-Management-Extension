@@ -1,7 +1,9 @@
 {
     "app": {
       "name": "Zendesk Organization Management Extension",
-      "description": "An integration for managing Zendesk organization data based on email domains."
+      "short_description": "Manage Zendesk organization data based on email domains.",
+      "long_description": "This app helps you manage Zendesk organization data based on email domains. It integrates seamlessly with your Zendesk account, automating organization management processes and improving account administration. You can use it to update organization data based on email domain patterns, saving time and effort in managing your Zendesk setup.",
+      "installation_instructions": "To install the Zendesk Organization Management Extension, follow the instructions in the README file provided with the app. Ensure that your Zendesk account has the necessary permissions to modify organization data. After installation, configure the app by entering your admin email, Zendesk subdomain, and API token."
     },
     "parameters": {
       "email": {
@@ -16,8 +18,6 @@
         "label": "API Token",
         "helpText": "Provide the API token for authenticating requests."
       }
-    },
-    "installation_instructions": "Follow the instructions in the README file to set up and use the app.",
-    "long_description": "This app allows you to manage Zendesk organization data based on email domains, making it easier to organize and maintain your Zendesk account."
+    }
   }
   
