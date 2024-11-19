@@ -2,7 +2,7 @@
   "name": "Zendesk Organization Management Extension",
   "author": "Ryan Schlenz",
   "description": "An integration for managing Zendesk organization data based on email domains.",
-  "marketingOnly": true,
+  "marketingOnly": false,
   "defaultLocale": "en",
   "installation_instructions": "Follow the README file for setup and usage instructions."
 }
