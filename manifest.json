@@ -1,8 +1,10 @@
 {
   "name": "Zendesk Organization Management Extension",
-  "author": "Ryan Schlenz",
-  "author_email": "jaschlenz@gmail.com",
-  "author_url": "https://github.com/RyanSchlenz",
+  "author": {
+    "name": "Ryan Schlenz",
+  "email": "jaschlenz@gmail.com",
+  "url": "https://github.com/RyanSchlenz"
+  },
   "description": "An integration for managing Zendesk organization data based on email domains.",
   "marketingOnly": true,
   "private": false,
