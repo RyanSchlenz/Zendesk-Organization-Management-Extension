@@ -1,0 +1,22 @@
+{
+    "app": {
+      "name": "Zendesk Organization Management Extension",
+      "description": "An integration for managing Zendesk organization data based on email domains."
+    },
+    "parameters": {
+      "email": {
+        "label": "Email",
+        "helpText": "Enter the admin email address for integration."
+      },
+      "subdomain": {
+        "label": "Subdomain",
+        "helpText": "Enter your Zendesk subdomain (e.g., 'yourcompany')."
+      },
+      "api_token": {
+        "label": "API Token",
+        "helpText": "Provide the API token for authenticating requests."
+      }
+    },
+    "installation_instructions": "Follow the instructions in the README file to set up and use the app."
+  }
+  
