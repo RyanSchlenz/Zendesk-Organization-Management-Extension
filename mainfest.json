@@ -1,0 +1,27 @@
+{
+  "name": "Zendesk Organization Management Extension",
+  "author": "Ryan Schlenz",
+  "description": "An integration for managing Zendesk organization data based on email domains.",
+  "frameworkVersion": "2.0",
+  "marketingOnly": true,
+  "parameters": [
+    {
+      "name": "email",
+      "type": "text",
+      "required": true,
+      "secure": true
+    },
+    {
+      "name": "subdomain",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "api_token",
+      "type": "password",
+      "required": true
+    }
+  ],
+  "installation_instructions": "Follow the README file for setup and usage instructions.",
+  "location": "support"
+}
