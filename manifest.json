@@ -1,38 +1,7 @@
 {
   "name": "Zendesk Organization Management Extension",
-  "id": "zendesk-organization-management-extension",
-  "version": "1.0.0",
-  "author": "Your Name",
-  "defaultLocale": "en",
-  "private": true,
-  "location": {
-    "support": {
-      "ticket_sidebar": {
-        "url": "assets/index.html"
-      }
-    }
-  },
-  "requirements": {
-    "zaf_version": "2.0"
-  },
-  "parameters": [
-    {
-      "name": "subdomain",
-      "type": "text",
-      "required": true,
-      "default": ""
-    },
-    {
-      "name": "email",
-      "type": "text",
-      "required": true,
-      "default": ""
-    },
-    {
-      "name": "api_token",
-      "type": "secure",
-      "required": true,
-      "default": ""
-    }
-  ]
+  "author": "Ryan Schlenz",
+  "description": "An integration for managing Zendesk organization data based on email domains.",
+  "marketingOnly": true,
+  "installation_instructions": "Follow the README file for setup and usage instructions."
 }
